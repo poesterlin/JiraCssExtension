@@ -1,0 +1,8 @@
+div[data-test-id="platform-board-kit.ui.board.scroll.board-scroll"] {
+  overflow-y: initial !important;
+}
+
+div[data-test-id="software-board.board"] {
+  overflow: auto !important;
+  height: auto;
+}

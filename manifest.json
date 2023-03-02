@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Jira No Whitespace",
+  "version": "0.1.0",
+  "description": "Optimize Jira Whitespace",
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": ["https://*.atlassian.net/jira/*"]
+    }
+  ]
+}
